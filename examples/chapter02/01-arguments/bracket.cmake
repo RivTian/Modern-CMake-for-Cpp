@@ -10,3 +10,5 @@ message([==[
   following is still a single argument:
   { "petsArray" = [["mouse","cat"],["dog"]] }
 ]==])
+
+# cmake -P script.cmake 即可执行脚本
