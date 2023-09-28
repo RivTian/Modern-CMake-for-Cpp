@@ -3,10 +3,10 @@ project(FindPackageProtobufTargets CXX)
 
 find_package(Protobuf REQUIRED)
 protobuf_generate_cpp(GENERATED_SRC GENERATED_HEADER
-                      message.proto)
+        message.proto)
 
-add_executable(main main.cpp
-                    ${GENERATED_SRC} ${GENERATED_HEADER})
-target_link_libraries(main PRIVATE protobuf::libprotobuf)
-target_include_directories(main PRIVATE
-                                ${CMAKE_CURRENT_BINARY_DIR})
+add_executable(main_proto main.cpp
+        ${GENERATED_SRC} ${GENERATED_HEADER})
+target_link_libraries(main_proto PRIVATE protobuf::libprotobuf)
+target_include_directories(main_proto PRIVATE
+        ${CMAKE_CURRENT_BINARY_DIR})
