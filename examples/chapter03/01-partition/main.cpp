@@ -1,9 +1,10 @@
 #include <iostream>
+#include <fmt/core.h>
 #include "cars/car.h"
 
 int main() {
-  std::cout << "A car rental" << std::endl;
-  Car volvo;
-  std::cout << volvo.honk() << std::endl;
-  return 0;
+    fmt::print("A car rental\n");
+    Car volvo;
+    fmt::print("{}\n", volvo.honk());
+    return 0;
 }

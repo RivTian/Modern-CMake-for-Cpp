@@ -1,5 +1,6 @@
 #include <string>
+
 class Lib3 {
-  public:
+public:
     std::string method();
 };

@@ -1,5 +1,6 @@
 #include <string>
+
 class Car {
-  public:
-    std::string honk();
+public:
+    static std::string honk();
 };
