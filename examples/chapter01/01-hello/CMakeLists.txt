@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.21.0)
+project(Hello)
+find_package(fmt CONFIG REQUIRED)
+add_executable(Hello hello.cpp)
+target_link_libraries(Hello PRIVATE fmt::fmt-header-only)

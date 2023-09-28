@@ -1,0 +1,65 @@
+The system is: Windows - 10.0.19045 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/Soft/Microsoft/BuildTools/2019/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30152.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "D:/Coding/Github/Modern-CMake-for-Cpp/build/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Coding/Github/Modern-CMake-for-Cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/JetBrains/CLion/bin/ninja/win/x64/ninja.exe cmTC_7b2ad && [1/2] Building CXX object CMakeFiles\cmTC_7b2ad.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_7b2ad.exe
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/Soft/Microsoft/BuildTools/2019/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.29.30152.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "D:/Coding/Github/Modern-CMake-for-Cpp/build/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Coding/Github/Modern-CMake-for-Cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/JetBrains/CLion/bin/ninja/win/x64/ninja.exe cmTC_26bae && [1/2] Building C object CMakeFiles\cmTC_26bae.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_26bae.exe
+
+
+
